@@ -1,8 +1,14 @@
+import styled from "styled-components";
+
+const HeaderStyles = styled.div`
+  background-color: #c1c1c1;
+`;
+
 function Header() {
   return (
-    <header className="App-header">
+    <HeaderStyles className="container">
       <h1>BE EXTRA INNIT</h1>
-    </header>
+    </HeaderStyles>
   );
 }
 
